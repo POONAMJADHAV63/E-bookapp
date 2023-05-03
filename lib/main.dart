@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: (settings) => generateRoute(settings),
     );
   }
-
-  ///Generate parameterized route --> e.g: detail/some book title
+   //routing setting 
+  ///Generate parameterized route --> e.g: detail/some book title 
   generateRoute(RouteSettings settings) {
     final path = settings.name?.split('/');
     final title = path![1];
